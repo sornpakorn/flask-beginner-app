@@ -43,7 +43,7 @@ from googleapiclient.discovery import build
 app = Flask(__name__)
 
 # Replace 'YOUR_API_KEY' with the actual API key you obtained from the Google Cloud Console
-API_KEY = 'AIzaSyCi--504ny3THUGOhcbJVn_5PCjN2aVxOA'
+API_KEY = 'your API_KEY'
 
 @app.route('/')
 def index():
